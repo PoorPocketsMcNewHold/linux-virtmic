@@ -13,15 +13,6 @@ inputs:
         description: 'Version of CMake to install'
         default: '3.20.2'
         required: true
-    ninja:
-        description: 'Version of ninja-build to install'
-        default: '1.10.2'
-        required: true
-    architecture:
-        description: 'The CPU architecture'
-        required: false
-    platform:
-        description: 'Override default platform with one of [win, mac, linux]'
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
